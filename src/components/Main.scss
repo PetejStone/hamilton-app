@@ -1,0 +1,30 @@
+.home,.about,.videos,.cast {
+    background-color: darken(#333,10%);
+    height: 100vh;
+    p {
+        margin-top: 0px;
+        color: #fff;
+        font-family: serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+        max-width: 900px;
+        margin:0 auto;
+    }
+    a {
+        color: #fff;
+       
+        padding-bottom: 2px;
+    }
+}
+
+.home,.about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about p {
+    font-size: 1rem;
+    margin-bottom: 12px;
+
+}

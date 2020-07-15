@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+
+}
+
+header,footer {
+    background-image: url('../images/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+footer {
+    height: 5rem;
+}
