@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
 .home,.about,.videos,.cast {
     background-color: darken(#333,10%);
     height: 100vh;
@@ -17,6 +19,14 @@
     }
 }
 
+.cast-member-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .home,.about {
     display: flex;
     justify-content: center;
@@ -28,3 +38,38 @@
     margin-bottom: 12px;
 
 }
+
+.modal-content {
+    background-image: url('../images/banner2.jpg');
+    border: 2px solid #fff;
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: column;
+}
+.modal-header,h2,.cast-name {
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+}
+
+.cast-photo{
+    width: 150px;
+    max-width: 100%;
+    box-shadow:0px 0px 5px #fff;
+    cursor: pointer;
+}
+
+.about-photo {
+    width: 150px;
+    max-width: 100%;
+}
+
+.cast-info {
+    font-size: 1rem !important;
+    text-shadow: 1px 1px 5px #000;
+}
+
+
+
