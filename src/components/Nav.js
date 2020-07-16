@@ -4,7 +4,7 @@ import './Nav.scss'
 const Nav = () => {
     return (
         <nav>
-        <NavLink to="/" className="navbar-link" activeStyle={{textDecoration: "underline"}}>Home</NavLink>
+        <NavLink exact to="/" className="navbar-link" activeStyle={{textDecoration: "underline"}}>Home</NavLink>
         <NavLink to="/about" className="navbar-link"activeStyle={{textDecoration: "underline"}} >About</NavLink>
         <NavLink to="/cast" className="navbar-link" activeStyle={{textDecoration: "underline"}}>Cast</NavLink>
         <NavLink to="/videos" className="navbar-link" activeStyle={{textDecoration: "underline"}}>Videos</NavLink></nav>
