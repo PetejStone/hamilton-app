@@ -2,7 +2,11 @@
 
 .home,.about,.videos,.cast {
     background-color: darken(#333,10%);
-    height: 100vh;
+    height: fit-content;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
     p {
         margin-top: 0px;
         color: #fff;
@@ -27,7 +31,7 @@
     flex-wrap: wrap;
 }
 
-.home,.about {
+.home,.about, .cast {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -69,6 +73,10 @@
 .cast-info {
     font-size: 1rem !important;
     text-shadow: 1px 1px 5px #000;
+}
+
+.member {
+    margin: 2rem;
 }
 
 
