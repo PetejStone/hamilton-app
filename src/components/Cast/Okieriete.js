@@ -11,6 +11,7 @@ const Okieriete = () => {
             </button>
                 <h5 class="modal-title" id="exampleModalLongTitle">Okieriete Onaodowan</h5>
                 <h6>Hercules Mulligan/James Madison</h6>
+                <h6 className="departed">-Departed Dec 24, 2016</h6>
                 
             </div>
             <div class="modal-body">

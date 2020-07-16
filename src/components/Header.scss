@@ -22,4 +22,11 @@ header,footer {
 }
 footer {
     height: 5rem;
+    p {
+        color: #fff;
+        text-shadow: 5px 5px 5px #000;
+        font-family: 'Cinzel', serif;
+        font-size: 1rem;
+        margin: 0px;
+    }
 }

@@ -3,7 +3,7 @@ import './Header.scss'
 const Footer = () => {
     return (
         <footer>
-            <p>This is a Footer</p>
+            <p>&copy; {  new Date().getFullYear() } StoneSquared Development</p>
         </footer>
     )
 }

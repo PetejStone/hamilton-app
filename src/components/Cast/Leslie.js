@@ -11,6 +11,7 @@ const Leslie = () => {
             </button>
                 <h5 class="modal-title" id="exampleModalLongTitle">Leslie Odom Jr.</h5>
                 <h6>Aaron Burr</h6>
+                <h6 className="departed">-Departed Jul 9, 2016</h6>
                 
             </div>
             <div class="modal-body">

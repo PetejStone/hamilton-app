@@ -23,12 +23,21 @@
     }
 }
 
-.cast-member-container {
+.departed {
+    font-size: .8rem;
+}
+
+.cast-member-container,.videos-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.videos-container p {
+    max-width: 300px;
 }
 
 .home,.about, .cast {
@@ -75,7 +84,7 @@
     text-shadow: 1px 1px 5px #000;
 }
 
-.member {
+.member,.video {
     margin: 2rem;
 }
 

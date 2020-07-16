@@ -11,6 +11,7 @@ const Daveed = () => {
             </button>
                 <h5 class="modal-title" id="exampleModalLongTitle">Daveed Diggs</h5>
                 <h6>Marquis de Lafayette/Thomas Jefferson</h6>
+                <h6 className="departed">-Departed Jul 15, 2016</h6>
                 
             </div>
             <div class="modal-body">
