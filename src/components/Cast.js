@@ -1,5 +1,7 @@
 import React from 'react'
 import './Main.scss'
+import {Parallax, Background} from 'react-parallax'
+
 import lin from '../images/lin-manuel.jpeg'
 import daveed from '../images/daveed.jpeg'
 import leslie from '../images/leslie.jpeg'
@@ -26,7 +28,11 @@ import Anthony from './Cast/Anthony.js'
 
 const Cast = () => {
     return (
-        <div className="cast">
+        <Parallax className='cast' 
+        bgImage={require('../images/hamcast.jpg')}
+        bgImageAlt="the cat"
+        bgImageSizes="10%"
+        strength={200}>
             <h2>Original Hamilton Cast</h2>
             <div className="cast-member-container">
                 <div className="member">
@@ -93,7 +99,7 @@ const Cast = () => {
                 <Okieriete />
                 <Anthony />
             
-        </div>
+        </Parallax>
     )
 }
 export default Cast

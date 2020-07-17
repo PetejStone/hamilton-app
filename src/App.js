@@ -8,6 +8,7 @@ import About from './components/About'
 import Cast from './components/Cast'
 import Videos from './components/Videos'
 import { Route, BrowserRouter, Switch } from 'react-router-dom'
+
 import './App.css';
 
 function App() {

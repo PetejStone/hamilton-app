@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 .home,.about,.videos,.cast {
-    background-color: darken(#333,10%);
-    height: fit-content;
+    //background-size: cover;
+    height: 44rem;
     max-width: 1500px;
     margin: 0 auto;
     padding-top: 3rem;
     padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     p {
         margin-top: 0px;
         color: #fff;
@@ -15,12 +18,23 @@
         font-size: 1.5rem;
         max-width: 900px;
         margin:0 auto;
+        text-shadow: 2px 2px 2px #000;
     }
     a {
         color: #fff;
        
         padding-bottom: 2px;
     }
+}
+
+.react-parallax-bgimage {
+    height: auto !important;
+    top: 10% !important; 
+}
+
+.react-parallax-content {
+   
+    overflow: scroll;
 }
 
 .departed {
@@ -40,11 +54,7 @@
     max-width: 300px;
 }
 
-.home,.about, .cast {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+
 
 .about p {
     font-size: 1rem;

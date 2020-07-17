@@ -1,8 +1,11 @@
 import React from 'react'
-
+import {Parallax, Background} from 'react-parallax'
 const Videos = () => {
     return (
-        <div className="videos">
+        <Parallax className='videos' 
+        bgImage={require('../images/lanphil.jpg')}
+        
+        strength={200}>
             <h2>Videos</h2>
             <div className="videos-container">
                 <div className="video">
@@ -22,7 +25,7 @@ const Videos = () => {
                 
             </div>
             
-        </div>
+        </Parallax>
     )
 }
 export default Videos

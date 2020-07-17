@@ -1,8 +1,13 @@
 import React from 'react'
 import './Main.scss'
+import { Parallax,Background } from 'react-parallax';
 const Home = () => {
     return (
-        <div className='home'>
+        <Parallax className='home' 
+        bgImage={require('../images/hamiltoncompany.jpg')}
+        bgImageAlt="the cat"
+        bgImageSizes="10%"
+        strength={200}>
             <p>Hamilton is the story of the unlikely Founding Father determined 
             to make his mark on the new nation as hungry and ambitious as he is. 
             From bastard orphan to Washington's right-hand man, rebel to war hero, 
@@ -14,7 +19,7 @@ const Home = () => {
             <br></br>
             <a href="https://www.broadway.com/shows/hamilton-broadway/" target="_blank">-Broadway.com</a>
             </p>
-        </div>
+        </Parallax>
     )
 }
 export default Home

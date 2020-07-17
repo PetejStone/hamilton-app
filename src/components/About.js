@@ -1,8 +1,12 @@
 import React from 'react'
-
+import {Parallax, Background} from 'react-parallax'
 const About = () => {
     return (
-        <div className="about">
+        <Parallax className='about' 
+        bgImage={require('../images/hamiltonguys.jpg')}
+        bgImageAlt="the cat"
+        bgImageSizes="10%"
+        strength={200}>
             <p>Hamilton: An American Musical, simply known as Hamilton, is a musical with music, 
             lyrics, and book by Lin-Manuel Miranda. It tells the story of American Founding Father Alexander 
             Hamilton. Inspired by the 2004 biography Alexander Hamilton by Ron Chernow, the show draws heavily 
@@ -45,7 +49,7 @@ const About = () => {
             <br></br>
             <a href="https://en.wikipedia.org/wiki/Hamilton_(musical)" target="_blank">-Wikipedia</a>
             </p>
-        </div>
+        </Parallax>
     )
 }
 export default About
