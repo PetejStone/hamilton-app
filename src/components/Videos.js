@@ -1,5 +1,6 @@
 import React from 'react'
 import {Parallax, Background} from 'react-parallax'
+import ReactPlayer from "react-player"
 const Videos = () => {
     return (
         <Parallax className='videos' 
@@ -9,17 +10,17 @@ const Videos = () => {
             <h2>Videos</h2>
             <div className="videos-container">
                 <div className="video">
-                    <iframe src="http://www.youtube.com/embed/2bkqXVc_1go?html5=1" allowfullscreen="allowfullscreen"></iframe>
+                    <ReactPlayer className="vid" url="https://www.youtube.com/watch?v=2bkqXVc_1go" allowfullscreen="allowfullscreen" />
                     <p>The Schuyler Sisters</p>
                 </div>
 
                 <div className="video">
-                    <iframe src="http://www.youtube.com/embed/b5VqyCQV1Tg?html5=1" allowfullscreen="allowfullscreen"></iframe>
+                    <ReactPlayer className="vid" url="https://www.youtube.com/watch?v=b5VqyCQV1Tg&t=147s" allowfullscreen="allowfullscreen" />
                     <p>70th Annual Tony Awards</p>
                 </div>
                 
                 <div className="video">
-                    <iframe src="http://www.youtube.com/embed/vo_s6PsVogI?html5=1" allowfullscreen="allowfullscreen"></iframe>
+                    <ReactPlayer className="vid" url="https://www.youtube.com/watch?v=vo_s6PsVogI&t=3s" allowfullscreen="allowfullscreen" />
                     <p>Hamilton Cast Performs "Helpless" With Jimmy Fallon and The Roots</p>
                 </div>
                 
