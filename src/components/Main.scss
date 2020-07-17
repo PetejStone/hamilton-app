@@ -7,6 +7,8 @@
     margin: 0 auto;
     padding-top: 3rem;
     padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -33,7 +35,7 @@
 }
 
 .react-parallax-content {
-   
+    -webkit-overflow-scrolling: touch !important;
     overflow: scroll;
 }
 
